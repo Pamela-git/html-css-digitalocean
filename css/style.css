@@ -21,13 +21,10 @@ header .navbar-default {
   border: none;
 }
 
-header .navbar-brand {
-  /* margin-right: 30px; */
-}
-
 header .navbar-brand > img {
   max-height: 100%;
 }
+
 
 header .navbar-default .navbar-nav>li>a {
   color: black;
@@ -55,7 +52,6 @@ header .btn-default {
   color: white;
   padding: 0 20px;
   font-size: 15px;
-  /* height: 300px; */
 }
 
 #jumbosx h1 {
@@ -68,11 +64,11 @@ header .btn-default {
   text-align: center;
 }
 
-#jumbodx h3, h4{
+#jumbodx h4 {
   font-weight: bold;
 }
 
-#jumbodx h4 {
+#jumbodx > h4:nth-child(2) {
   color: blue;
 }
 
