@@ -1,0 +1,9 @@
+[class*="col-"] {
+  background-color: pink;
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+h1 {
+  display: inline-block;
+}
