@@ -160,6 +160,16 @@ header .btn-default {
   color: grey;
 }
 
+/* sezione pubblicità */
+
+.linkpub {
+  text-align: left;
+}
+
+.linkpub a {
+  color: blue;
+  font-weight: bold;
+}
 
 /* sezione create account */
 .sfondo_blu {
