@@ -2,13 +2,6 @@
   padding: 0;
 }
 
-/* debug */
-[class*="col-"] {
-  /* background-color: pink; */
-  min-height: 100px;
-  border: 1px solid black;
-}
-
 /* centratura blocchi */
 .centratura {
   padding: 0 10%;
@@ -170,7 +163,7 @@ header .btn-default {
 
 /* sezione create account */
 .sfondo_blu {
-  background-color: rgb(0, 52, 174);
+  background-color: rgb(0, 71, 197);
 }
 
 #iscriviti {
@@ -190,6 +183,33 @@ header .btn-default {
 
 .carousel-inner p {
  text-align: center;
+}
+
+/* sezione dati */
+#titolodati h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.colonsx {
+  color: white;
+  margin-top: 20px;
+}
+
+.colonmid {
+  color: rgb(89, 125, 206);
+  margin-top: 20px;
+}
+
+.linktest_ {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.linktest_ a {
+  color: rgb(0, 127, 194);
+  font-weight: bold;
 }
 
 /* sezione carousel2 */
