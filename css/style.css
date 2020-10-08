@@ -59,6 +59,7 @@ header .btn-default {
 }
 
 #jumbodx {
+  margin: 25px 0;
   background-color: white;
   padding: 10px 20px;
   text-align: center;
@@ -87,6 +88,7 @@ header .btn-default {
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-top: 13px;
+  font-size: 12px;
 }
 
 #privato {
@@ -99,7 +101,156 @@ header .btn-default {
   text-decoration: underline;
 }
 
+/* sfondo grigio */
 
+.sfondo_grey {
+  background-color: rgb(243, 245, 249);
+}
+
+/* sezione partners */
+#titolo_partners h4 {
+  font-size: 15px;
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.linkblu {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.linkblu a {
+  color: blue;
+  font-weight: bold;
+}
+
+/* titoli comuni a più section */
+
+.titoli {
+  text-align: center;
+}
+
+.titoli h2, p {
+  font-weight: bold;
+}
+
+.titoli p {
+  color: grey;
+}
+
+/* sezione deploy */
+
+.linkdeploy {
+  margin-left: 50px;
+  margin-top: 30px;
+  border-left: 2px solid grey;
+}
+.linkdeploy a{
+  color: grey;
+  margin: 10px 5px;
+  font-size: 15px;
+  display: block;
+}
+
+.deploydx {
+  margin-top: 30px;
+}
+
+.deploydx > img {
+  max-height: 30px;
+}
+.deploydx p {
+  font-size: 12px;
+  font-weight: normal;
+  color: grey;
+}
+
+
+/* sezione create account */
+.sfondo_blu {
+  background-color: rgb(0, 52, 174);
+}
+
+#iscriviti {
+  text-align: center;
+}
+
+#iscriviti h4 {
+  color: white;
+  font-weight: bold;
+}
+
+#iscriviti .btn-default {
+  color: blue;
+  border-color: blue;
+  font-weight: bold;
+}
+
+.carousel-inner p {
+ text-align: center;
+}
+
+/* sezione carousel2 */
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-inner #contenuto > img {
+  max-width: 150px;
+}
+
+.carousel-inner #contenuto > span {
+  display: block;
+}
+
+.carousel-inner #contenuto > p {
+  color: grey;
+}
+
+
+
+
+/* footer */
+
+.sfondo_scuro {
+  background-color: rgb(3, 28, 78);
+}
+
+.footerdx {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.footerdx p {
+  margin: 20px 0;
+  font-weight: normal;
+  color: grey;
+}
+
+.footerdx span {
+  color: rgb(48, 68, 108);
+  font-size: 13px;
+}
+
+/* footersx */
+.lista_footer a {
+  display: block;
+  color: grey;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footersx {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footersx h5 {
+  color: white;
+  font-weight: bold;
+}
 
 
 
