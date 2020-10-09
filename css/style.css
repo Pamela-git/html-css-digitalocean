@@ -164,6 +164,19 @@ header .btn-default {
   color: grey;
 }
 
+/* sezione design */
+
+#carousel-example-generic {
+  margin-bottom: 20px;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-control {
+  display: none;
+}
+
 /* sezione pubblicità */
 
 .linkpub {
@@ -242,9 +255,6 @@ header .btn-default {
 .carousel-inner #contenuto > p {
   color: grey;
 }
-
-
-
 
 /* footer */
 
@@ -325,4 +335,11 @@ header .btn-default {
         display:block !important;
     }
 
+}
+
+/* media query per freccette carousel */
+@media (min-width: 993px) {
+  .carousel-control {
+    display: block;
+  }
 }
